@@ -1,0 +1,48 @@
+.contact {
+  &__wrapper {
+    display: flex;
+    gap: 30px;
+  }
+  &__inp {
+    padding: 10px;
+    width: 674px;
+    display: block;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border: 1px solid gray;
+    &:hover {
+      color: #495057;
+      background-color: #fff;
+      border-color: #80bdff;
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+    }
+  }
+  &__btn {
+    padding: 10px;
+    width: 674px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+
+    &:hover {
+      color: #007bff;
+      border-color: #007bff;
+      background-color: white;
+    }
+  }
+  &__inform {
+    border: 1px solid gray;
+    padding: 10px;
+  }
+  &__str {
+    margin-bottom: 10px;
+  }
+  &__inform {
+    width: 500px;
+  }
+  &__text {
+    margin: 5px 0px;
+  }
+}
