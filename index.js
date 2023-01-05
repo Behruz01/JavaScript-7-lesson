@@ -9,7 +9,7 @@ const contacts = [];
 elForm.addEventListener("submit", function (evn) {
   evn.preventDefault();
   if (elName.value !== "" && elSurname.value !== "" && elPhone.value !== "") {
-    elContact.innerHTML = `<h2>Contacts</h2>`;
+    elContact.innerHTML = `<h2 style="margin-bottom: 10px">Contacts</h2>`;
     let contactName = elName.value;
     let contactSurname = elSurname.value;
     let contactPhone = elPhone.value;
